@@ -51,7 +51,7 @@ const Course = () => {
           Terokai Kursus Yang Kami Tawarkan
         </h2>
         <div>
-          <div className="w-full flex py-[20px] justify-center flex-row space-x-4 flex-wrap sm:space-y-4 sm:mb-5 ">
+          <div className="w-full flex py-[20px] justify-center flex-row space-x-4">
             {courses.map((course, index) => (
               <CourseCard key={course.id} {...course} index={index} />
             ))}
